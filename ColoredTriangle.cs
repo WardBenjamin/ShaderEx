@@ -152,11 +152,11 @@ namespace ShaderEx
                     GL.Begin(PrimitiveType.Triangles);
 
                     GL.Color4(triangleColors[0]);
-                    GL.Vertex2(trianglePoints[0].X, trianglePoints[0].Y);
+                    GL.Vertex2(trianglePoints[0]);//.X, trianglePoints[0].Y);
                     GL.Color4(triangleColors[1]);
-                    GL.Vertex2(trianglePoints[1].X, trianglePoints[1].Y);
+                    GL.Vertex2(trianglePoints[1]);
                     GL.Color4(triangleColors[2]);
-                    GL.Vertex2(trianglePoints[2].X, trianglePoints[2].Y);
+                    GL.Vertex2(trianglePoints[2]);
 
                     GL.End();
 
