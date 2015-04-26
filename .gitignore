@@ -1,0 +1,8 @@
+App.config
+bin
+bin/*
+obj
+obj/*
+*.suo
+Properties
+Properties/*
